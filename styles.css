@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Helvetica:100,200,300');
+
+*{
+  font-family: Helvetica;
+}
+.body-div{
+  width:500px;
+  margin:auto;
+}
+.group{
+  align-items: center;
+  display: flex;
+  width: 100%;
+
+  .line-1{
+    background-color: #c7c7c7;
+    flex-shrink: 0;
+    height: 0.0904rem;
+    margin: 0rem 1.356rem 0.402rem 0rem;
+    width: 8.3996rem;
+  }
+  .bundle-save{
+    color: #007f61;
+    flex-shrink: 0;
+    font-family: Helvetica;
+    font-size: 1.7076rem;
+    font-weight: 500;
+    line-height: 1.1575;
+    margin-right: 2.5186rem;
+    white-space: nowrap;
+  }
+  .line-2{
+    background-color: #c7c7c7;
+    flex-shrink: 0;
+    height: 0.0904rem;
+    margin-bottom: 0.402rem;
+    width: 8.3996rem;
+  }
+}
+.rad-1{
+  width:510px;
+  border:1px #c8c8c8 solid;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+.padrad2{
+  padding: 2%;
+}
+.rad-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inside-rad1{
+  display: flex;
+  align-items: center;
+}
+.pair{
+  padding-left: 10px;
+  align-self: center;
+  margin-top: 15px;
+}
+.pair p{
+  padding: 0px;
+  margin: 0px;
+}
+.rad-3{
+  display: flex;
+  justify-content: space-between;
+  width:510px;
+}
+input[type="radio"] { 
+  /* Set the background color for the radio button */ 
+    accent-color: #007F61; 
+  width: 15px;
+    height: 15px;
+ 
+  /* Set the border color for the radio button */ 
+  border-color: #ccc; 
+ 
+  /* Set the border width for the radio button */ 
+  border-width: 1px; 
+} 
+input[type="radio"]:checked::after { 
+  /* Set the background color for the checked radio button */ 
+  background-color: #007F61; 
+  accent-color: #007F61;
+ 
+  /* Set the border color for the checked radio button */ 
+  border-color: #007F61; 
+} 
+th, td{
+  text-align: left;
+}
+th{
+  font-size: 15px;
+font-family: "Inter";
+font-weight: 400;
+}
+#div-table1,#div-table2,#div-table3{
+  display: none;
+  margin-left: 1rem;
+}
+option{
+  padding: 5px;
+}
+.addcart{
+color:white;
+background-color: #007F61;
+width:510px;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+padding:10px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border: none;
+}
+.copyright{
+  width: 510px;
+  text-align: right;
+}
+select{
+  background: url("caret-down-solid.svg.svg") no-repeat 90% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    appearance: none;
+    outline-width: 0;
+    display: block;
+    padding: 5px;
+    border-color: #c8c8c8;
+    border-radius: 2px;
+  width: 70px;
+  height: 30px;
+  font-size: 10px;
+  }
+  .font-600{
+    font-weight: 600;
+  }
