@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Helvetica:100,200,300');
-
 *{
   font-family: Helvetica;
 }
@@ -11,31 +9,30 @@
   align-items: center;
   display: flex;
   width: 100%;
-
-  .line-1{
-    background-color: #c7c7c7;
-    flex-shrink: 0;
-    height: 0.0904rem;
-    margin: 0rem 1.356rem 0.402rem 0rem;
-    width: 8.3996rem;
-  }
-  .bundle-save{
-    color: #007f61;
-    flex-shrink: 0;
-    font-family: Helvetica;
-    font-size: 1.7076rem;
-    font-weight: 500;
-    line-height: 1.1575;
-    margin-right: 2.5186rem;
-    white-space: nowrap;
-  }
-  .line-2{
-    background-color: #c7c7c7;
-    flex-shrink: 0;
-    height: 0.0904rem;
-    margin-bottom: 0.402rem;
-    width: 8.3996rem;
-  }
+}
+.line-1{
+  background-color: #c7c7c7;
+  flex-shrink: 0;
+  height: 0.0904rem;
+  margin: 0rem 1.356rem 0.402rem 0rem;
+  width: 8.3996rem;
+}
+.bundle-save{
+  color: #007f61;
+  flex-shrink: 0;
+  font-family: Helvetica;
+  font-size: 1.7076rem;
+  font-weight: 500;
+  line-height: 1.1575;
+  margin-right: 2.5186rem;
+  white-space: nowrap;
+}
+.line-2{
+  background-color: #c7c7c7;
+  flex-shrink: 0;
+  height: 0.0904rem;
+  margin-bottom: 0.402rem;
+  width: 8.3996rem;
 }
 .rad-1{
   width:510px;
@@ -61,7 +58,7 @@
   margin-top: 15px;
 }
 .pair p{
-  padding: 0px;
+  padding: 0px 0px 5px 0px;
   margin: 0px;
 }
 .rad-3{
@@ -91,10 +88,8 @@ input[type="radio"]:checked::after {
 } 
 th, td{
   text-align: left;
-}
-th{
   font-size: 15px;
-font-family: "Inter";
+font-family: Inter;
 font-weight: 400;
 }
 #div-table1,#div-table2,#div-table3{
@@ -120,6 +115,7 @@ border: none;
 .copyright{
   width: 510px;
   text-align: right;
+  font-family:Courier New, monospace; font-size: 15px;
 }
 select{
   background: url("caret-down-solid.svg.svg") no-repeat 90% 50%;
@@ -139,3 +135,194 @@ select{
   .font-600{
     font-weight: 600;
   }
+  .p-40{
+    padding: 0;margin: 0;font-weight: 600; text-align: end;
+  }
+  .p-popular{
+  padding: 0;margin: 0;font-weight: 600; color:#007F61;
+  }
+  .p-del{
+  font-size: 12px;color:#9F9F9F;
+  margin-top: 16px;
+  }
+  /* For tablet View*/
+  @media screen and (min-device-width: 668px) 
+    and (max-device-width: 1024px) {
+      .body-div{
+        width:450px;
+        margin:auto;
+      }
+      .rad-1{
+        width:450px;
+        border:1px #c8c8c8 solid;
+        border-radius: 5px;
+        margin-bottom: 3%;
+      }
+      .padrad2{
+        padding: 2%;
+      }
+      .pair{
+        padding-left: 8px;
+        align-self: center;
+        margin-top: 12px;
+      }
+      .rad-3{
+        display: flex;
+        justify-content: space-between;
+        width:450px;
+      }
+      input[type="radio"] { 
+        width: 12px;
+          height: 12px;
+      } 
+      th,td{
+        font-size: 12px;
+      }
+      option{
+        padding: 4px;
+      }
+      .addcart{
+        width:450px;
+        font-size: 16px;
+        padding:8px;
+        }
+        .copyright{
+          width: 450px;
+          font-size: 12px;
+        }
+        select{
+            padding: 4px;
+          width: 60px;
+          height: 25px;
+          font-size: 8px;
+          }
+          .font-600{
+            font-weight: 500;
+          }
+          .line-1{
+            background-color: #c7c7c7;
+            flex-shrink: 0;
+            height: 0.0904rem;
+            margin: 0rem 1.356rem 0.402rem 0rem;
+            width: 7.3996rem;
+          }
+          .bundle-save{
+            color: #007f61;
+            flex-shrink: 0;
+            font-family: Helvetica;
+            font-size: 1.5076rem;
+            font-weight: 500;
+            line-height: 1.1575;
+            margin-right: 2.5186rem;
+            white-space: nowrap;
+          }
+          .line-2{
+            background-color: #c7c7c7;
+            flex-shrink: 0;
+            height: 0.0904rem;
+            margin-bottom: 0.402rem;
+            width: 7.3996rem;
+          }
+          .p-40, .p-popular{
+            font-weight: 500;
+          }
+          .pair p{
+            padding: 0px 0px 4px 0px;
+            margin: 0px;
+          }
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+    and (max-device-width: 668px) {
+      p{
+        font-size: 9px;
+      }
+      .body-div{
+        width:250px;
+        margin:auto;
+      }
+      .rad-1{
+        width:250px;
+        border:1px #c8c8c8 solid;
+        border-radius: 5px;
+        margin-bottom: 1.5%;
+      }
+      .padrad2{
+        padding: 1%;
+      }
+      .pair{
+        padding-left: 5px;
+        align-self: center;
+        margin-top: 12px;
+      }
+      .rad-3{
+        display: flex;
+        justify-content: space-between;
+        width:250px;
+      }
+      input[type="radio"] { 
+        width: 9px;
+          height: 9px;
+          font-size: 7px;
+      } 
+      th,td{
+        font-size: 7px;
+      }
+      option{
+        padding: 3px;
+      }
+      .addcart{
+        width:250px;
+        font-size: 12px;
+        padding:6px;
+        }
+        .copyright{
+          width: 250px;
+          font-size: 7px;
+        }
+        select{
+            padding: 3px;
+          width: 40px;
+          height: 15px;
+          font-size: 6px;
+          }
+          .font-600{
+            font-weight: 200;
+          }
+          .line-1{
+            background-color: #c7c7c7;
+            flex-shrink: 0;
+            height: 0.0904rem;
+            margin: 0rem 1.056rem 0.202rem 0rem;
+            width: 3.3996rem;
+          }
+          .bundle-save{
+            color: #007f61;
+            flex-shrink: 0;
+            font-family: Helvetica;
+            font-size: 1.0076rem;
+            font-weight: 500;
+            line-height: 1.1575;
+            margin-right: 1.5186rem;
+            white-space: nowrap;
+          }
+          .line-2{
+            background-color: #c7c7c7;
+            flex-shrink: 0;
+            height: 0.0904rem;
+            margin-bottom: 0.202rem;
+            width: 3.3996rem;
+          }
+          .p-40, .p-popular{
+            font-weight: 300;
+          }
+          .pair p{
+            padding: 0px 0px 0px 0px;
+            margin: 0px;
+          }
+          .p-del{
+            font-size: 6px;
+            margin-top: 10px;
+          }
+}
